@@ -47,7 +47,7 @@ Copyright 2019, Alexey Schegolev - http://www.htmlplayer.org
 
 /* justify-items (grid)
 ----------------------------------------------------------*/
-.ji-center: {justify-items: center}
+.ji-center {justify-items: center}
 
 
 /* align-items
