@@ -24,6 +24,8 @@ Copyright 2019, Alexey Schegolev - http://www.htmlplayer.org
 .flex {display: flex}
 .column {flex-direction: column}
 .wrap {flex-wrap: wrap}
+.grow {flex-grow: 1}
+.shrink {flex-shrink: 0}
 
 
 /* justify-content
@@ -99,11 +101,6 @@ Copyright 2019, Alexey Schegolev - http://www.htmlplayer.org
 .as-center {align-self: center}
 
 
-/* flex-grow
-----------------------------------------------------------*/
-.grow {flex-grow: 1}
-
-
 /* flex-basis (width or height)
 ----------------------------------------------------------*/
 .fb-100 {flex-basis: 100%}
@@ -114,3 +111,9 @@ Copyright 2019, Alexey Schegolev - http://www.htmlplayer.org
 .left {text-align: left}
 .center {text-align: center}
 .right {text-align: right}
+
+
+/* Positions
+----------------------------------------------------------*/
+.absolute {position: absolute}
+.relative {position: relative}
